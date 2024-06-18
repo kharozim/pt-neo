@@ -47,11 +47,11 @@ android {
     productFlavors {
         create("dev") {
             dimension = myDimention
-            buildConfigField("String", "BASE_URL", "\"https://picsum.photos/\"")
+            buildConfigField("String", "TOKEN_GITHUB", "\"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\"")
         }
         create("prod") {
             dimension = myDimention
-            buildConfigField("String", "BASE_URL", "\"https://picsum.photos/\"")
+            buildConfigField("String", "TOKEN_GITHUB", "\"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\"")
         }
     }
 }
