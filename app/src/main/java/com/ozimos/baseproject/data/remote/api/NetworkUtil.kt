@@ -43,7 +43,7 @@ object NetworkUtil {
 
                 if (baseUrl == Constants.BASE_URL_GITHUB_USER) {
                     request.addHeader("Accept", "application/vnd.github+json")
-                    request.addHeader("Authorization", "Bearer " + BuildConfig.TOKEN_GITHUB)
+//                    request.addHeader("Authorization", "Bearer " + BuildConfig.TOKEN_GITHUB)
                 }
 
                 chain.proceed(request.build())
